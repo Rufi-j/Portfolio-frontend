@@ -1,0 +1,75 @@
+.topbar {
+    width: 100%;
+    height: 70px;
+    background-color: #15023a;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: antiquewhite;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+nav li {
+  margin: 3.5vh;
+}
+
+.hamburger div {
+  width: 2rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgray;
+  display: none;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.brand {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger div{
+    display: block;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background-color: #15023a;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+
+}
+
+
+/* Nav Active Class */
+.nav_active {
+  transform: translateX(0);
+}
