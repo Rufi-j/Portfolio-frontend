@@ -1,6 +1,6 @@
 import React from 'react';
 import "./skills.css";
-import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import { CheckCircle } from '@mui/icons-material';
 
 export default function Skills() {
   return (
@@ -14,29 +14,29 @@ export default function Skills() {
             <div className="skill_breakdown">  
               <div className="skill_item">
                 <div className="line_div">
-                  <CheckCircleIcon className="icon" /><p>HTML</p> 
+                  <CheckCircle className="icon" /><p>HTML</p> 
                   <span className="competency">Advanced</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>CSS</p>
+                  <CheckCircle className="icon"/><p>CSS</p>
                   <span className="competency">Intermediate</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>JavaScript</p>
+                  <CheckCircle className="icon"/><p>JavaScript</p>
                   <span className="competency">Intermediate</span>
                 </div>
               </div>
               <div className="skill_item">
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>Bootstrap</p>
+                  <CheckCircle className="icon"/><p>Bootstrap</p>
                   <span className="competency">Intermediate</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>React</p>
+                  <CheckCircle className="icon"/><p>React</p>
                   <span className="competency">Advanced</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>Git</p>
+                  <CheckCircle className="icon"/><p>Git</p>
                   <span className="competency">Intermediate</span>
                 </div>   
               </div>
@@ -47,29 +47,29 @@ export default function Skills() {
             <div className="skill_breakdown">
               <div className="skill_item">
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>NodeJS</p>
+                  <CheckCircle className="icon"/><p>NodeJS</p>
                   <span className="competency">Intermediate</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>Express</p>
+                  <CheckCircle className="icon"/><p>Express</p>
                   <span className="competency">Intermediate</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>MongoDB</p>
+                  <CheckCircle className="icon"/><p>MongoDB</p>
                   <span className="competency">Intermediate</span>
                 </div> 
               </div>
               <div className="skill_item">
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>Python</p>
+                  <CheckCircle className="icon"/><p>Python</p>
                   <span className="competency">Basic</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>SQL</p>
+                  <CheckCircle className="icon"/><p>SQL</p>
                   <span className="competency">Intermediate</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircleIcon className="icon"/><p>Firbase</p>
+                  <CheckCircle className="icon"/><p>Firbase</p>
                   <span className="competency">Basic</span>
                 </div>
               </div>
