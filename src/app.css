@@ -7,8 +7,25 @@
   height: calc(100vh - 70px);
   position: relative;
   top: 70px;
+  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   scrollbar-width: none; 
+  overflow-y: scroll;
   
 }
 
+.sections::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .sections {
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+    overflow-y: scroll;
+  }
+
+  .sections::-webkit-scrollbar {
+    display: none;
+  }
+}

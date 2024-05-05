@@ -50,13 +50,13 @@ nav li {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .hamburger div{
     display: block;
   }
   .nav_menu {
     position: fixed;
-    top: 7vh;
+    top: 6vh;
     right: 0;
     width: 50%;
     height: 93vh;
@@ -64,7 +64,19 @@ nav li {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    align-items: center;
+    justify-content: space-around;
   }
+
+  .topbar {
+    width: 100%;
+    height: 50px;
+    background-color: #15023a;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
 
 }
 

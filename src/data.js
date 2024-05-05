@@ -1,8 +1,8 @@
 export const products = [
     {
         id: 1,
-        img: "assets/Quiz-App.png",
-        link: "https://tee-quiz.netlify.app/"
+        img: "assets/little-lemon.png",
+        link: "https://mylittlelemon.netlify.app/"
     },
     {
         id: 2,
@@ -21,8 +21,8 @@ export const products = [
     }, 
     {
         id: 5,
-        img: "assets/little-lemon.png",
-        link: "https://my-weather-project-eb017.web.app/"
+        img: "assets/Quiz-App.png",
+        link: "https://tee-quiz.netlify.app/"
     },
     {
         id: 6,

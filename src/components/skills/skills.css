@@ -78,5 +78,11 @@
 @media screen and (max-width: 480px) {
     .fullstack {
         flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .stack {
+        max-width: 80%;
+        height: 230px;
     }
 }

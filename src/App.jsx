@@ -9,7 +9,6 @@ function App() {
   
   return (
     <div className="app">
-        
         <Topbar />
       <div className="sections">
         <AboutMe />

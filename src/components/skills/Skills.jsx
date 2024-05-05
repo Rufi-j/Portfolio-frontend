@@ -69,7 +69,7 @@ export default function Skills() {
                   <span className="competency">Intermediate</span>
                 </div>
                 <div className="line_div">
-                  <CheckCircle className="icon"/><p>Firbase</p>
+                  <CheckCircle className="icon"/><p>Firebase</p>
                   <span className="competency">Basic</span>
                 </div>
               </div>
