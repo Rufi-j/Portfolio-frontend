@@ -91,6 +91,7 @@
 @media screen and (max-width: 480px) {
     .aboutme {
         flex-direction: column;
+        height: calc(100vh - 50px);
     }
 
     .right {

@@ -128,4 +128,8 @@ textarea{
     .sub-mit {
         margin-top: 10px;
     }
+
+    .c {
+        height: calc(100vh - 50px);
+    }
 }

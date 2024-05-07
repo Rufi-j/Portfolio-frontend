@@ -51,4 +51,8 @@
         padding: 10px;
     
     }
+
+    .projectlist {
+        height: calc(100vh - 50px);
+    }
 }

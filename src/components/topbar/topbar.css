@@ -56,10 +56,10 @@ nav li {
   }
   .nav_menu {
     position: fixed;
-    top: 6vh;
+    top: 6.5vh;
     right: 0;
     width: 50%;
-    height: 93vh;
+    height: 92.5vh;
     background-color: #15023a;
     flex-direction: column;
     transform: translateX(100%);
@@ -75,7 +75,12 @@ nav li {
     position: fixed;
     top: 0;
     z-index: 4;
-}
+  }
+
+  nav ul {
+    
+    gap: 0.1rem;
+  }
 
 
 }

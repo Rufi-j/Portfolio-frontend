@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 480px) {
   .sections {
+    height: calc(100vh - 50px);
     scroll-snap-type: y mandatory;
     scrollbar-width: none; 
     overflow-y: scroll;

@@ -44,15 +44,15 @@ const Contact = () => {
                     alt=""
                     className="c-icon"
                   />
-                  +2348051817820
+                  <a href="tel:+2349070597147">+2349070597147</a>
                 </div>
                 <div className="c-info-item">
                   <img className="c-icon" src="assets/email.png" alt="" />
-                  rufaitaiye@gmail.com
+                  <a href="mailto:rufaitaiye@gmail.com">rufaitaiye@gmail.com</a>
                 </div>
                 <div className="c-info-item">
                   <img className="c-icon" src="assets/address.png" alt="" />
-                  1 Shola Bodunrin Close, Ilorin, Nigeria
+                  Nigeria
                 </div>
               </div>
             </div>
